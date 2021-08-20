@@ -65,7 +65,7 @@ function new_user() {
 
 
 
-    if (age != 0 && fio.length != 0) {
+    if (age !== 0 && fio.length !== 0) {
         alert('ФИО: ' + fio + '\n\r ' + 'возраст, лет: ' + age +
             '\n\r ' + 'возраст, дней: ' + ageDay + '\n\r ' + 'Через 5 лет Вам будет: ' + resulAge +
             '\n\r' + " пол: " + pol + '\n\r ' + 'пенсионный возраст: ' + pensConfirm);
