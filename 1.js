@@ -14,7 +14,7 @@ function new_user() {
 
 
 
-    enter_fio();
+    enterFio();
 
     enter_age();
     enter_pol();
@@ -22,18 +22,18 @@ function new_user() {
 
 
 
-    function enter_fio() {
-        function enter_fio(question) {
+    function enterFio() {
+        function enterFio(question) {
             var answer = prompt(question);
             if (!answer || isFinite(parseInt(answer))) {
-                enter_fio(question);
+                enterFio(question);
             } else {
                 fio += answer + " ";
             }
         }
-        enter_fio("Ваша фамилию: ");
-        enter_fio("Ваше имя: ");
-        enter_fio("Ваше отчество: ");
+        enterFio("Ваша фамилию: ");
+        enterFio("Ваше имя: ");
+        enterFio("Ваше отчество: ");
 
     }
 
@@ -51,7 +51,7 @@ function new_user() {
     function enter_pol() {
         pol = confirm("Ваш пол - мужской?");
         pol ? pens = 65 : pens = 60;
-        if (pens == 65 && age >= pens || pens == 60 && age >= pens) {
+        if (pens === 65 && age >= pens || pens === 60 && age >= pens) {
             pens_confirm = "да";
         } else {
             pens_confirm = "нет";
