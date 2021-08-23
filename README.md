@@ -1,2 +1,0 @@
-# academyJS
-ITacademyJS
