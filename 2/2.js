@@ -44,30 +44,21 @@ numericTrue([true, false, false, true, false]) ➞ 2
 
 
 
+function numericTrue(arr) {
+    let count = 0;
 
-function numericTrue(array) {
-    var res = {
-        'true': 0
-    };
+    arr.forEach(function(item) {
+        if (item) {
+            count++;
+        }
+    })
 
-    count(array);
-    return res;
-
-    function count(arr) {
-        arr.forEach(e => {
-            if (Array.isArray(e)) {
-                count(e);
-            } else {
-                res['true'] += e ? 1 : 0;
-            }
-        });
-    }
+    return count;
 }
 
 console.log(numericTrue([true, false, false, true, false]));
 console.log(numericTrue([false, false, false, false]));
 console.log(numericTrue([]));
-
 
 
 
