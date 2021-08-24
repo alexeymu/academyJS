@@ -45,7 +45,7 @@ numericTrue([true, false, false, true, false]) ➞ 2
 
 
 function numericTrue(arr) {
-    let count = 0;
+    var count = 0;
 
     arr.forEach(function(item) {
         if (item) {
