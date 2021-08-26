@@ -10,7 +10,7 @@ converAge(20) ➞ 7300 */
 Игнорируйте високосные годы и дни между прошлым днем рождения и настоящим днем.
 Ожидайте ввода только положительных целых чисел. */
 
-/* function convertAge(year) {
+function convertAge(year) {
 
     var a = 365;
     year = a * year;
@@ -21,7 +21,7 @@ convertAge(65);
 convertAge(0);
 convertAge(20);
 
- */
+
 
 
 // 2. Напишите функцию, которая принимает целые минуты и преобразует их в секунды.
@@ -33,7 +33,7 @@ convertMinutes(3) ➞ 180
 convertMinutes(2) ➞ 120 */
 
 
-/* function convertMinutes(sec) {
+function convertMinutes(sec) {
     var a = 60;
     sec = a * sec;
     console.log(sec);
@@ -42,7 +42,7 @@ convertMinutes(2) ➞ 120 */
 convertMinutes(5);
 convertMinutes(3);
 convertMinutes(2);
- */
+
 
 
 
@@ -57,7 +57,7 @@ triArea(10, 10) ➞ 50 */
 
 //Площадь треугольника: (base * height) / 2
 
-/* function triArea(base, height) {
+function triArea(base, height) {
     var plo;
     plo = (base * height) / 2;
     console.log(plo);
@@ -65,7 +65,7 @@ triArea(10, 10) ➞ 50 */
 triArea(3, 2);
 triArea(7, 4);
 triArea(10, 10);
- */
+
 
 
 
@@ -82,7 +82,7 @@ remainder(-9, 45) ➞ -9
 remainder(5, 5) ➞ 0 */
 
 //В тестах используются только положительные и отрицательные целые числа.
-/* function remainder(sum1, sum2) {
+function remainder(sum1, sum2) {
     var sum3;
     sum3 = sum1 + sum2;
 
@@ -95,7 +95,7 @@ remainder(5, 5) ➞ 0 */
 remainder(1, 3);
 remainder(3, 4);
 remainder(-9, 45);
-remainder(5, 5); */
+remainder(5, 5);
 
 
 
@@ -116,13 +116,13 @@ footPoints(0, 0, 1) ➞ 0 */
 //Входными данными будут числа больше или равные 0.
 
 function footPoints(pob, nic, por) {
-    var pob = 3;
-    var nic = 1;
-    var por = 0;
-    var itog;
-    itog = pob + nic + por;
-    console.log(itog);
+    var result;
+    var pob = pob * 3;
+    var nic = nic * 1;
+    var por = por * 0;
+    result = pob + nic + por;
 
+    console.log(result);
 }
 
 footPoints(3, 4, 2);
