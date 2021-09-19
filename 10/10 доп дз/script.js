@@ -6,6 +6,6 @@ function changeTitle1() {
 
 /* домашка 2  */
 function changeTitle2() {
-    var title22 = document.querySelectorAll('collection');
+    var title22 = document.querySelectorAll('.collection')[0];
     title22.innerHTML += '<a href="#!" class="collection-item"> Item бесконечность </a>';
 }
