@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./lib/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+
+
+
+
+    <!--------------Task6-------------->
+
+
+    <pre>Task 6. При нажатии на кнопку "Change description" измените описание карточки с "I am a very simple card. I am good..." на любое русскоязычное.</pre>
+
+    <div class="row">
+        <div class="col s12 m4">
+            <div class="card first_task">
+                <div class="card-image">
+                    <img src="images/photo1.jpg" id="current-img">
+                    <span class="card-title" id="card2-title">Card Title</span>
+                </div>
+                <div class="card-content">
+
+                    <p id="description">I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a class="waves-effect waves-light btn-small" onclick="changeTitle1()">Change description</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------------Task8-------------->
+
+    <pre>Task 8. При нажатии на кнопку "Add new item" добавьте новую вкладку с любым названием.</pre>
+
+    <div class="row">
+        <div class="col s12">
+            <div class="collection">
+                <a href="#!" class="collection-item">Item 1</a>
+                <a href="#!" class="collection-item">Item 2</a>
+                <a href="#!" class="collection-item">Item 3</a>
+                <a href="#!" class="collection-item">Item 4</a>
+            </div>
+
+            <a class="waves-effect waves-light btn-small" onclick="changeTitle2()">Add new Item</a>
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
