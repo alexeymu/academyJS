@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="CodePixar">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Karma Shop</title>
+
+    <!--
+		CSS
+		============================================= -->
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/nouislider.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/img.css">
+    <style>
+        *,
+        *::before,
+        *::after {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+            font-size: 19px;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #212529;
+            text-align: left;
+            background-color: #fff;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <!-- Start Header Area -->
+    <header class="header_area sticky-header">
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light main_box">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" class='logo' alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav ml-auto">
+                            <li class="nav-item active"><a class="nav-link" href="index.html">Главная</a></li>
+                            <li class="nav-item submenu dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Программные кассы</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="category.html">Каталог</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="single-product.html">Аксессуары</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="checkout.html">Принтеры</a></li>
+                                    <!--                                     <li class="nav-item"><a class="nav-link" href="cart.html">Условия подключения</a></li>
+ -->
+                                    <!--   <li class="nav-item"><a class="nav-link" href="confirmation.html">Confirmation</a></li> -->
+                                </ul>
+                            </li>
+                            <li class="nav-item submenu dropdown">
+                                <a href="./blog.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Тарифы</a>
+                                <!--  <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Последние новости</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
+                                </ul> -->
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Тарифы</a></li>
+                                    <!--  -->
+                                </ul>
+                            </li>
+                            <li class="nav-item submenu dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Информация</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="login.html">О Программной кассе</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="tracking.html">Как подключится</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="elements.html">Обучающие видео</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Контакты</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="nav-item"><a href="#" class="cart"><span class="ti-bag"></span></a></li>
+                            <li class="nav-item">
+                                <button class="search"><span class="lnr lnr-magnifier" id="search"></span></button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="search_input" id="search_input_box">
+            <div class="container">
+                <form class="d-flex justify-content-between">
+                    <input type="text" class="form-control" id="search_input" placeholder="Search Here">
+                    <button type="submit" class="btn"></button>
+                    <span class="lnr lnr-cross" id="close_search" title="Close Search"></span>
+                </form>
+            </div>
+        </div>
+        <!-- End Banner Area -->
+
+        <!--================Login Box Area =================-->
+        <div class="pageWrapper___2OlWZ">
+            <section class="content___JNyOq header___oirUO page_title___1Ubc9">
+                <div class="sectionContainer___SfWFc">
+                    <div class="fade-in-section___1lGpP is-visible___2q5Zh">
+                        <h1 class="sectionTitle___24-Pr">О Программной кассе</h1>
+                    </div>
+                    <div class="sectionSubTitle___1uuU_"></div>
+                </div>
+                <div class="header__info___ue9-C p_container___3LT5M">
+                    <div class="header__info_left___3NfZ_"><span class="indent___2TFKq"><span class="title___2jB9A">Программная касса</span> - специализированное программное обеспечение, предназначенное для выполнения кассовых операций при продаже товаров, выполнении работ, оказании услуг.</span>
+                        <span class="indent___2TFKq">Функционирует в едином цикле с программно-аппаратным средством контроля оператора ПКС (СКО)</span>
+                    </div>
+                    <div class="header__info_right___3dlJW"><span class="indent___2TFKq"><span class="title___2jB9A">Средство контроля Оператора (СКО)</span> - специальное электронное устройство, предназначенное для сбора, обработки, удостоверения и подготовки информации для передачи в ЦОД
+                        АИС ПКС и далее в СККО о событиях и денежном обороте - результате кассовых операций, осуществляемых субъектом хозяйствования с применением Программной кассы на электронном устройстве</span><span><a class="decorated___rnsMp" href="#sko">Подробнее</a></span></div>
+                </div>
+            </section>
+            <div class="withBg___3Z2TJ">
+                <section class="content___JNyOq container___zhFwV">
+                    <div class="sectionContainer___SfWFc">
+                        <div class="fade-in-section___1lGpP is-visible___2q5Zh">
+                            <h2 class="sectionTitle___24-Pr">Полноценная замена железной кассы</h2>
+                        </div>
+                        <div class="sectionSubTitle___1uuU_"></div>
+                    </div>
+                    <div class="cheque___2LOQu">
+                        <div class="cheque__image___2Q7kn">
+                            <picture>
+                                <source srcset="/проект/проект/karma/karma/src/images/check.webp" type="image/WebP"><img src="/_next/static/images/cheque-8e8242b34c10aee24e05e15576ff6fc9.png" alt="Чек" class="cheque__image_main___2lYDI"></picture>
+                        </div>
+                        <div class="cheque__description___3J2bo">
+                            <div class="cheque__description_item___2UcKQ">
+                                <div class="container___1h7Wn">
+                                    <div class="item___nGbX-">
+                                        <div class="item__icon___1GrhF">
+                                            <div style="height: 25px; width: 25px;"><svg viewBox="0 0 120 120"><path fill="transparent" stroke="red" stroke-width="3" d="M 77.10100716628341 13.01536896070457 A 50 50 0 1 0 106.98463103929542 77.10100716628344"></path><path stroke="red" stroke-width="3" fill="transparent" d="M 35 44 L60 79 L119 10"></path></svg></div>
+                                        </div>
+                                        <div class="item__text___3rJzd">Регистрация платежного документа - чека</div>
+                                    </div>
+                                    <div class="description___64w7I">Прием оплаты наличными, картой, с помощью QR-кода и другими способами</div>
+                                </div>
+                            </div>
+                            <div class="cheque__description_item___2UcKQ">
+                                <div class="container___1h7Wn">
+                                    <div class="item___nGbX-">
+                                        <div class="item__icon___1GrhF">
+                                            <div style="height: 25px; width: 25px;"><svg viewBox="0 0 120 120"><path fill="transparent" stroke="red" stroke-width="3" d="M 77.10100716628341 13.01536896070457 A 50 50 0 1 0 106.98463103929542 77.10100716628344"></path><path stroke="red" stroke-width="3" fill="transparent" d="M 35 44 L60 79 L119 10"></path></svg></div>
+                                        </div>
+                                        <div class="item__text___3rJzd">Аннулирование ошибочно сформированного чека</div>
+                                    </div>
+                                    <div class="description___64w7I">Аннулирование возможно как наличной, так и безналичной операции</div>
+                                </div>
+                            </div>
+                            <div class="cheque__description_item___2UcKQ">
+                                <div class="container___1h7Wn">
+                                    <div class="item___nGbX-">
+                                        <div class="item__icon___1GrhF">
+                                            <div style="height: 25px; width: 25px;"><svg viewBox="0 0 120 120"><path fill="transparent" stroke="red" stroke-width="3" d="M 77.10100716628341 13.01536896070457 A 50 50 0 1 0 106.98463103929542 77.10100716628344"></path><path stroke="red" stroke-width="3" fill="transparent" d="M 35 44 L60 79 L119 10"></path></svg></div>
+                                        </div>
+                                        <div class="item__text___3rJzd">Возврат платы за товар</div>
+                                    </div>
+                                    <div class="description___64w7I">Возможен возврат на карту</div>
+                                </div>
+                            </div>
+                            <div class="cheque__description_item___2UcKQ">
+                                <div class="container___1h7Wn">
+                                    <div class="item___nGbX-">
+                                        <div class="item__icon___1GrhF">
+                                            <div style="height: 25px; width: 25px;"><svg viewBox="0 0 120 120"><path fill="transparent" stroke="red" stroke-width="3" d="M 77.10100716628341 13.01536896070457 A 50 50 0 1 0 106.98463103929542 77.10100716628344"></path><path stroke="red" stroke-width="3" fill="transparent" d="M 35 44 L60 79 L119 10"></path></svg></div>
+                                        </div>
+                                        <div class="item__text___3rJzd">Служебные изъятия и внесения наличных в кассу</div>
+                                    </div>
+                                    <div class="description___64w7I">Внесение разменных денег, подкрепление кассы, инкассация</div>
+                                </div>
+                            </div>
+                            <div class="cheque__description_item___2UcKQ">
+                                <div class="container___1h7Wn">
+                                    <div class="item___nGbX-">
+                                        <div class="item__icon___1GrhF">
+                                            <div style="height: 25px; width: 25px;"><svg viewBox="0 0 120 120"><path fill="transparent" stroke="red" stroke-width="3" d="M 77.10100716628341 13.01536896070457 A 50 50 0 1 0 106.98463103929542 77.10100716628344"></path><path stroke="red" stroke-width="3" fill="transparent" d="M 35 44 L60 79 L119 10"></path></svg></div>
+                                        </div>
+                                        <div class="item__text___3rJzd">Формирование X, Z-отчетов и закрытие смены</div>
+                                    </div>
+                                    <div class="description___64w7I">Контроль 24-часовой смены</div>
+                                </div>
+                            </div>
+                            <div class="cheque__description_item___2UcKQ">
+                                <div class="container___1h7Wn">
+                                    <div class="item___nGbX-">
+                                        <div class="item__icon___1GrhF">
+                                            <div style="height: 25px; width: 25px;"><svg viewBox="0 0 120 120"><path fill="transparent" stroke="red" stroke-width="3" d="M 77.10100716628341 13.01536896070457 A 50 50 0 1 0 106.98463103929542 77.10100716628344"></path><path stroke="red" stroke-width="3" fill="transparent" d="M 35 44 L60 79 L119 10"></path></svg></div>
+                                        </div>
+                                        <div class="item__text___3rJzd">Установка скидок и надбавок</div>
+                                    </div>
+                                    <div class="description___64w7I">Как на единицу товара/услуги, так и на весь чек целиком</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="action___1b806 blockAction___3ahKC">
+                        <div class="main___3PtHP"><a class="" href="/cash_boxes">Выбрать Программную кассу</a></div>
+                    </div>
+                </section>
+            </div>
+            <section class="content___JNyOq container___zhFwV">
+                <div class="sectionContainer___SfWFc">
+                    <div class="fade-in-section___1lGpP">
+                        <h2 class="sectionTitle___24-Pr">За Программными кассами будущее!</h2>
+                    </div>
+                    <div class="sectionSubTitle___1uuU_"></div>
+                </div>
+                <div class="main___1p2NK">
+                    <div class="main__item___3pz4c">
+                        <div class="main___6dhxI">
+                            <div class="image___2441R" style="border-color: rgb(35, 86, 124);">
+                                <picture>
+                                    <source srcset="data:image/webp;base64,UklGRnYFAABXRUJQVlA4WAoAAAAQAAAAQAAAQAAAQUxQSPQCAAABkARt/xlJv6ps99j2TPf4urZtczyz5sm2bdu2bQ/6tLY3Vf/GTiqV+h2Sf/LPf3mMiAkAc7e5nd8Nu79PBZ4PIksy94/zYvfG7TrXH/jwCxzKjkzUGdL0+i+w1Q90Z5/+Ex1KC4nR6dfg6i/wYvPy9TqX7/7wCzD8HSziao/bSQghTkUlO0VCiPvDVK4aDxhQVFSUN+qt6v6o3kVFRQOKqnIlaIKtQnXABoImV9REh2pXIvAoJKanMYyv/1R1oVZkelpaenq8GVVGny91sCx1VKqIo9ShLj3dxcrKZ8RX5PR5eyujrI/I7YV4Nj4DkeOmbCI28TTan0n8VZ5WRTJJvM/Tcja2p4goufQrWrLL5UFEyeXyyFq7Y5nUkxDx6LJlK+jLlr3UkEsXLD4gIZ5ftmDbW60H6Uxq/kTEBqB/jwaZA0ITEZWWAPa9WnfsLCw5iKgYOaijlYjYCcB+UOthFgufISbMBKG+iHILANtercomTAawkx1r156XUDm9du3+t5R6LCKXsUNFkmRElCRJVsyI3aSqaWC3FtMcFgmHVG28/YPo/pajJgyzMMgqRUQ8v13/Ww3p7oQJ2z0o75kwZulzykArixcqtmQOCE1FVFoD2A5SpgczqPXZnFYiYntd2+IZtEBzmoiotAaw60hg0M4E14ZIW46IODQ2suUlyu4UY94jTUDy4sVbBZG8efFZopRWNeY/2Qym5Qz8JnLmqGHMdsAE5evV62Uy4rM718sIpbKjsZS9JrhWBSXmiIgloUH1TlOwi7HsSyaQOSA0FVFpCWDfS+tsrNYzM2aCUP87yi0AErfRhjB4Y0Ll+bwBKzyorMrLm1BKm+FvqKNsAsqi6EJEpygShTbNx1AO8r4oVJfFIsAA7o6kg8UiUDoNGDDgAHflE/JGFjWlPJDxFxWPUC6RX+XL9r+MY0278t26131DS8HKN4QeMTQfePc+aGgFBPNtjT1t6On+Q8e4PnTso6Ff83/TkQ+ez7+k59UKAABWUDggXAIAAFANAJ0BKkEAQQA+jTiXR6UjoiEx+AugoBGJQBkKlEH2+ewS7dGCTPc8836Jehd/0nstbySvwVuMsCqKD42yU4ajqkv8c/hJm7w5aDuyIbyh/GqQfsCESfkdRezN9GkZLFwfD0cxPaGK35ewkGHjGvjFBlAA/vuB//6/H/56H//Wo3uiAPKzTUcSbpYnGpqxtx9TQfOoDWLwoZg/1sau/zq27WTnMYMQGqupDT9AM8GL649SoJDbhBrjvCaG6xzJc3CawjCwMveJ739McrWJ4CcxkInp//my9yfy5//vIWIbU9kWpa20dBoiWQWvKRxiqqszaNxBV5huHSosymupforDc9FSTER2UD9EzK4Zbi+rbACq/6c/EsWoG9TxgDl/IHOUj163I1SFtbXmxDO7+hhIm5yV5E61v7MbgfPDnOXLV1JvNL0G3W6rQqQXzEmslxQiAhdw0k36HjaVbG1hs7PSUpka94PdSx2otiDi9XIB2eFtygXwIOoMn/rjRUcUZntaH/QKhisAt5aBGlS+ECZCY+GsS0xKxLPMUyLh40ZmPAz81we1sc8khpU/URiMXoDwQx9JNKvDXn2uqEssYinuOoMkxmkfOt0rVd3PgnwgZKOMqb8cBQCNsCXl9M4MWuKvkNKu7FgPEPjl8cRCrMq+U7z0LYZN9NDL9gESx7NoOa/P9/S1Fdk+NJDLeQNpEHSNyhFI9avjV4IbnKx/EO+QjAIpR4b+EOrw1jXtsJQkadcEEeaS0FdhC4GNiHQGLpM4zNnnfsv0K6YNgmc2XTcuHs4ABGyjh8gAAAA="
+                                        type="image/WebP"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAMAAAC5KTl3AAACf1BMVEUAAAAAUIaQqrwYbJltl7V9nbUAUIYAUIYAUIYAT4YAUIYAUIYAUIYAUYcAUIYAUIYlbJYAUocAUIZbjq8DVIgAUIZRh6oAYZB2nbqet8oqcJkAT4YKY5EAUYcAT4YAT4YeY5EAUIYAUIYCZZMAToUAVYoAT4UAUogAToVtjqovbpYIXo4jY5JrlLAAWYwAToUAWYsAUYcDYo8AUYcAT4YBYY8AX44AYI8AW4xJgKSRqbwAVIkAUYcAVokAYJAAZJIGYo8AVIgcbZkUZJAAXo0SZZEzc5ogbJYAXY0faJOLqL43dZwVa5d+oLgAUIYAVokAVIgmbpk/d5sAYZAaaJIAX49HfaAKX48AVooAVIgAYJAAWo0AXo8AUIYAXY4AYZAAU4gAWosPZ5UAXo0AUIcKY5EZapUhbZgAXY0AWoxBe59GgaUmbZdRh6sAW41DeZwwdJwAUIZllLMUZZEAVYkrcZoLYpEAXo0AXo4qcJkmb5gAWIs2d51kj61Ng6YxdJwwdJsBYo8ATYV4mLICYpBZiqo5e6FumriZtsoAU4gAVIoAUIYAWYsAZ5QAYpEAVYkhcJkAVooOapgAYI4AX44WaZMDZJEeZ5IARX8kcpsAUog3eqEAZ5VQg6Vbja9Xi60NZZJIg6cNY5EASIAAY5E9eJ05fKIkcJpWh6cATIMAY48AUIZaiqocbJh6nLVGep0AToR3mrNuk7EncJkAUIasvs1pk7F7nrhNf6InbZeXsMV/nrcna5QqcJmQq79ylLCqu8ykt8g9eJ6ZscIAUIYAT4UAToUAS4IATIQAS4MAUYYASYIAToQAP3sAQn0ASIEAU4gARoAARH8AQXwARoGOsK+kAAAAxHRSTlMA6QayEFPyo9UDJe3v9Oq+rfL5mw/7o5QeGYljIv39ZwX29N4m/fN8Xz4jFgwJ+/XR0bewmZKIOBwaC/j449vLw7uuraypp6KWXUlHRkNDQj08KikeHhII8uvp5+bm4+Ld3NXSzMG+vLu3rqyop6KhnpSTkpGOjIiFgXdxa2hnXVJPSDczIR0WEfn34N/U09PNycjIwbGxra2rq6mopp+dnJOPi4SDgn99eHBwb21sZVlYUVBQTU1MSkE+PDYzKiklHBUEO/pRlAAABAdJREFUWMPdlWW7EkEUgNeuNUCxUJBGse+96rW7u7u7u7u7u7u7O88Ms6GE/iDHXUBgZ5VRP/k+D5yZgX2Z2XP2IPySbo385bJoVG6FwEEljCELtWRNPgNIX75+SfE1TjCnQVU8c85VTVF51ugIp4HEZr7dVj3F9j7t4xZOgzKvZfrCwKYK7x4if22Iz3y/vUaKli+n8J5CjXjOLqycYuGc0TFOA4bw53S+EsRbDxhAln+8Eu+0opbwGGY38pek+B1AsflFOm40hquqXziddrs9uGosBiDtVt2nE6f9DY+hjIZQaw8BiM2qlZzzM2QiNcTPDM7pR4d4yxpo0b8tBlCmNQ/RD73eFoI5n1ZOb1LaSJPSrYFioQNt2nR9URNBg9sjMLBACCiqCjp4/FMTxbtRYQw5gGLTPrC3sOYb5AYmfZiGj/MVyBGysj7L0OIwydnQPcTMejtqQBlAAn34cyV+YRvLUKstNVjd5VO43Q7QsJUv76LBSoNNW1C6FrIMA6wI5KMFBdWSFCzarQsaL73Y2Yph+qKlc9vo2ZrsZRk27SQ4Wjfz2QQMgCzNhDL9ROLrJQj1ukjaHg7WYwjq9ADAtesa+wP+Ydgo4ugjauikG/YPYpXDamJmWC6U6S+Shr3pveqi56tVP5ZhrcQ2gK10fn4HK/bNyM8/2UYTqK0GMAyhAmxiAIfVaqPBSoOeHan1K4ahcH6EGjZlrHVFGFKgtKHcg2HY2lEC7Hs+rH6VJPXrHJE1Q8ITkWSs6gZyp47RMKgxBoh2KJVOGxko1gOBQCmX2vB04Mbi8Ymnc01RhsETBkASkiGJrFJnIpt9RcnXk+aiE9GL8kpxo6H5SAmYIMuyH/UgqU+o4Zj+JTyX0et6Y2CTqEnJ0TNVURDpttVoeAYEmGD3+VCtdaIi3y0M9Zoa0dZiXbcYBMNuggkIDfd4xtbGaPg4z8gdWLc23mww1L8mgRlYkggNRAsa0l6joeX1b+YGQrAeCAKNyMTXxv7SmYAJjhFT2k+yYZhwqP0kS+IUrTYYDFtOfQE2yN29yuAeIoneG1plQFP9rCS63mAYqN1l03roK5LaPzsMSPJDY0FNIMAk0R/Kaf1hcDeiW2G10TBOARNadwg6F7iwr3swGGiMQINcNvxjbGhIwAybKLoBZL8olnSAjnK1QbZhHfwOhNIm0pKhGU22ThlhbZQAD3le7bIEj51OZ+coAh72BYK37H2Thsk2wAT4kOlLzEsaKpaEP6JCqQwD4sRgkGUEHCBZzjRgUqxPCR56PmgXydyDulgoyoMwNI9kGtAlgY9hx7NOgasJxXkoWjgjaw/Q9kTHYhx0LDZKzTKgsBLmQJHQP68Hfv5DQ94YV5E/wLVrAb34O+yAwOXCXDE/AAAAAElFTkSuQmCC"
+                                        alt="Изображение преимущства ПК" class='foto'></picture>
+                            </div>
+                            <div class="title___1TlMi">Замена СКНО</div>
+                            <div class="description___3z3fu">СКНО можно сдать и получить залоговую стоимость</div>
+                        </div>
+                    </div>
+                    <div class="main__item___3pz4c">
+                        <div class="main___6dhxI">
+                            <div class="image___2441R" style="border-color: rgb(131, 156, 128);">
+                                <picture>
+                                    <source srcset="data:image/webp;base64,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"
+                                        type="image/WebP"><img src="data:image/png;base64,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"
+                                        alt="Изображение преимущства ПК" class='foto'></picture>
+                            </div>
+                            <div class="title___1TlMi">Offline</div>
+                            <div class="description___3z3fu"><span>Может работать 7 суток автономно. <br> Хранит более 4000 чеков</span></div>
+                        </div>
+                    </div>
+                    <div class="main__item___3pz4c">
+                        <div class="main___6dhxI">
+                            <div class="image___2441R" style="border-color: rgb(212, 110, 113);">
+                                <picture>
+                                    <source srcset="data:image/webp;base64,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"
+                                        type="image/WebP"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAMAAAC5KTl3AAAC9FBMVEUAAADypqnmcHT1s7blbXLzqarrf4Pzp6rxm5/vmJz1t7nnd3rqfYDzrbD3xMb2u73ndnn1trnujpPzr7Lrf4Tul5v1v8Hzq67zpKjyo6f50dLmcHTrf4Tul5v0srTnc3fndHjpe37ukpbyoaT1tLbypKf4ztDoeX3uj5T1ur33wsT1u73shIfqgYTqe3/vlJnuk5XwnqHwmp35z9D52NnrgobukpTmcHTyqKvshYjnc3fmbnPvl5vmcHTypaj2uLv2vb/2u774xsj4ycv1t7n2wMP0s7b4xcfpeX3rf4LqgoXsiIvrf4TwmZ3uj5LwnaHwnJ/ujJDuj5T0rK7yoqb0r7Hzq632u73yoaT3xMX0trjzrK73vL7zp6nzqqz2vr/pdXnncXTmcHTod3rvk5fujZHvk5fxoaTukZTujpHyoqbvlpvukpXxoKT1s7bxo6flZ230srTrgITzqavyo6b2u77zqav2u770r7H4z9D4xcf4yszlaG3siIvncXXnd3vpeX3shonrgIPulZnujpPvl5zzq67zrK70qq3ulZn0qKvvlZrzqavwm5/0tLb1s7frf4T0tbj0r7Hzqqzypqn4xMb3yMrypqn5zc7qfIDodnnoeHzkZmztjZHpfoHrhYjvl5vshorlaW7uk5brgITzqq3lZ2zmbXLxo6fvl5vvlZnxnKDwmp7mbHH1t7r1uLvmbnPvmZ3wm572wMPzr7Hyp6n4xsnzr7LzsrX1uLvzra/ulJf2xsjnc3bmam/tio3qe37mbnPwnJ/tjZDvkpToeHvmcnXwnKDoeHv1sbPvm57vkZXndXjwm5/zqqv3wMPzqaz5zc/4y871ubz1uLvtkpTulJjmbnPndnnpe3/shIjrf4Trf4PtkJPqgYb1ubzwnqLujpPzsLHvmp3mcHTlaW7lbHHlaG3ka3DlbXLmbnPmcXTncnbkZWnma3DlZ2zkZWvmaW7jY2jnc3fjYWXodXjiXmPoeHzodnrnbXLiXGDmb3Q7/kuNAAAA5HRSTlMABOcC7CvWEscOB/3nJwUL+Am5JdeKDW2FVhTm2Iw2/vr0z1w3Fw/xtSAcA+7u7c+ppYEmDPSvoEZA/OjAspF9c2BbUFA7Ozb88ero39TUwLa0sqaakohlY1dEMiUfGhX8/Pbx4dzUzMLCv7q5t7WtqpyYkIyFfG1dMzEu/Pju7ezm1MrIx8azrKylo5qXlomHhIBYSUc+OyH39PPw6+jh2trMx8a9vbq5tLGsqKaflpSEf3d0cWZlWVVPQhj47uHW1NHPysrCsqOhoJGRi4GAeGlgNC368uXfuKmnp52PeXh1cVK00RIJAAAHUUlEQVRYw+3XVXTTUBgH8DuKFugozrANKdBtFFiHjMGEMdzZxnB3d3d3d3d3d3d313uTxusTXrhpSkm6whMPPPDf2VnyfTu/c3fzJV3A//zVHF5c1rvUcfHgat+kw1VDB9+uHuzV1345cFh2uutdB2+hw/utN9tIh8vfbL2xzFvwv7d1l+yUapzbW8jSmCz5QDpsE0SmHtd49XV9iK6y08z582UQspJ5jkqHZyaTOQv5efUL5iWKyoWs+YCqU5kyJVwpU0YnCVUA0LSPf564ziVon8WXkRLfIVgUMnmtQXs8lydxKlEIxELYgG651jEmUWi36Wd78oJsvgT/4YhDZs4sINJS2iPU7Z5uRdAlrLIJSODMHElyLcr6FAozBGRYFkLaVsQjjGuCICsJJcpRELI2FtJEJZ+CtjCD6vdNSOjVmWd/Ccak+YuaBSJJ4NnudxJmhVv43wpcSDIAJxuQWHDvpCuxkwVJQI6DajCmJ4l+K5gbrQSgTohH+Cx1l00m3ULORQDoswu/F7jw6Hz5RoQjSUARrStk0asAKF3xp+CYNSYstvsfBOTYYDA0KklIggWGXm+6b4xMIJjwzVe71+d/vw8ENFEUAemfAk2Zw5NlAgUpk8lE00pBOQ+CWSARyZeWBBPnXBPrEVYF4lERBEGch46+BE1c+RYtXWlRPl4UENOwX5/K4zxC+zl5y0vJe6KgLwGoc3jih++LqWTgA3wY7BGCf/XVqgxC1grAK7mneu7NZVg4hVFF/MsrhakVgv2UaT+Vc00Uro+uyK2N03j1/fvzNWVCzW7zqhRQ5Mi8bkgUAr5+KNA7kOjS4kiB4vIcWbCRkq+h6Hd8lQj3t/sHTQUeBXiG7QjRkEa4ougjAioEaCGROAtICj6kINV1KQCrt9k5/juEJtLTwDEhRFIKoWZgjxmGUIrofGlaKTENKAgh1WVQvXrJu5saGrEUbCQ1Qmkad9KCes7oGUQpdnJjHRAwhOdCYoN1Op1RN4CHOIwthZ3wxKgaUV9gjmmMRqM2YD6FIKTJyDAQNp1XCI3rAr9E0h66QjrfZzaJEazOBnUAGBVk7pzkqqsTGQQJxPXXg/N9COUa2qo6tWaFCbEqrQqfN6dZMTYWTXiqAY/WcKmFtGrc8B/GmL4zLN27A6gwPU2xD0GDEucPnD134MBhrWOMAMTMbeXKXFxpvaiXAzGRia1j/ETBnLPXnUGjdFggFNeCSU1NGRJgXLmZonuFAaAKcEe3cjPrYCELbSk2Qw4sQGtojC5ADTIIEFnHP8Tlbc707KuBLGEGJ2dBCFlI+zUt0CQy1oZnXY1OvdNqKgRIdEnQgHpNzFyvccFqKRoAcIWkacbB0gyapgMFE7BwWtxS1eptXmuANNwyp1JkA54PjZxTVcqcGFHgyB5LTx2/xlMN9lbae4kWRCF+XtV+FWmlgCeFoGiCgt8pihYDIcW2BmBsE866Ww/UlcfTuIHHEYlCm7U8/gWlgMwCx3FmsyCYXeEEgmASAGhfypk+QIcnxIm7+EuwB53CwiSEBeVUl2qWXZFmTfOYmGbJcdEzDdN2JMUlz57hbhgG1BUFHiqFzMXGZfPKmMsIRnSb2OhJp2xLQyZ2O1bWXS+bTZNB8P2Man/ZAnnBHoqn+kQep2mUSt4sPZEkaK815MZj5OeJCrie1bDL+JCnGr+Ra8ZHRGulhuuppUmaRHSBGQS/Ffv3V5Zy97koICb7yZgRM2dEznyUdGxWv+Y4A2IBOL8kst+s6NioTYS34D+csKTxOGk8Lf3/UHIY/mOuW+3N9MC/udXCp1nYIQC0a8rZI/UgoE9GoTDkaYLAU0G5P3kjaovzYLX31QPtLTNB0HzJhaIgmPN2xFPtQ2AstpAePcJtaW6hJBZWz56yaebo+LgdW3qEMEQEFioMmjJld1y7M035mhkFLnxE3bqHGiCZoAprW+/QywkvhrRduagz6rzQVam7pPuGDal0Jh9CIzwtdRqSMkHM6K7p1GgA2ubkGCyIObs+3c5DX0IIvvonQ5WCBoxaRzpGqTUx9anUISqNeM8mXSBY2pdA1p8dHb2jvkUmGJOXRPfNaYF9o6IOLbi34OCIqCVRUVEHB929FUr5EAjoSEmxMbRMGHsV5rQxELIp7B410C512FJSUplmYUDf29c8kLzAcQLPU+55GA7AuJ7pVlzBDWcLvIuPkRlxVmf/TkDdP4OgHZkncG0eKWckYT5egyGiXJAreeZpgXokNDER5S7s0QN9H14h5M8NVBWWL68uZfl5133BTNnTv++nczXcyaICmpHQnOvxuXOj9+/tV47yFpQRBUgga/gKeREL1vzP8FxmEizKT96uvt4vLJAm8PVVCA+htXFbAFa9RhQNJ8o6V7bn8xZyb79YtOir9VuUazjRdf32eLyGG7iZ6Yqsc2BoR2+hw9CdtWrV2vm2nrzot+zmzqFZMH97F25WU7ypdfT1plat2uChYxXC2VqDP+bG/P0DuHkf/M+/lR9YZxnwpHKKmwAAAABJRU5ErkJggg=="
+                                        alt="Изображение преимущства ПК" class='foto'></picture>
+                            </div>
+                            <div class="title___1TlMi">QR-pay</div>
+                            <div class="description___3z3fu">Возможны альтернативные способы оплаты</div>
+                        </div>
+                    </div>
+                    <div class="main__item___3pz4c">
+                        <div class="main___6dhxI">
+                            <div class="image___2441R" style="border-color: rgb(96, 137, 171);">
+                                <picture>
+                                    <source type="image/WebP"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAMAAAC5KTl3AAAA81BMVEUAAACEq8NSiq22y9vY4+ypwtRSiq1wnLqTtMqgvNCbuc7L2uWTtMpwnLpMh6u90d5QiaxEgqeeu9DR3+l9psCLr8arxNba5u1BgKZrmbhWja9EgadckbJqmbhVjK6Lr8aWtsymwdTH2OTS4Ol1oL1bj7FPiax5o75JhKlqmLdekbJpl7Z2oL1xnbt4or2sxdbF1+NSiq3///9HhKlDgqdJhalMhqpPiaxHhKhOiKvH2OO/0t+2zNupwtSgvNCYt8xum7qcus6auc19psBjlLVekbP9/v5Ti61Uiq08fqTB1eG6z92xydmkwNKUtct1n7xBgKYyGCESAAAAMXRSTlMAX7syB0PviV9OVxlRdcYqu5xSD312PwS8u7u5speOaVtHHAvv7++7s6GdkpFyazcfF+SQhAAAAYRJREFUWMPt1WlvgjAAxvFOdJvOgXjf5+6bQYHu9NrU3d//0yxM+mKF0tomi4v+XvHC/GP7kACCcnub4Q72FcCj1IQGhaNfAg4Jy6CyzwGHtBtR2F0XVq6gO1Q6VwH04nRgiRU3hKRLOHChQyFWs+cXJoYgVPELhrCMdCH2qwBd15YqqHlNOVMlCrDgPTWQeEHN/bwYULjgqMCjQYn/oHlPKYkCOva+VnVHZot6oVBFUu8DMqEj/j5g68LcFFlMMLKA8gpTG0UVzCxgytmRhRRg2mEWuskEVUfhKbRmJtXXKU9hO+rLu/W/CtAkoYUKztP7PekTLVJA/euAIZQtDEIK+Ks3DZ5i/HZHGkWcYuIEb9IKCLlJ+9AvtMquOTdrs7folk1frVECPi2bnEtd4S0GD6S+fwqAf5wtgjD4Jp9pWzAxt2DCW7zekvAWLMwtmJhbMOEtPh4Jw37wFEu+BRq/3JBG9mI36cptQfF3hU6NXoB5wOMEUQtHGuARr2RioTLVsMA38ebexqrn97sAAAAASUVORK5CYII="
+                                        alt="Изображение преимущства ПК" class='foto'></picture>
+                            </div>
+                            <div class="title___1TlMi">Печать</div>
+                            <div class="description___3z3fu">Позволяет печатать чеки на любом принтере</div>
+                        </div>
+                    </div>
+                    <div class="main__item___3pz4c">
+                        <div class="main___6dhxI">
+                            <div class="image___2441R" style="border-color: rgb(153, 153, 151);">
+                                <picture>
+                                    <source srcset="data:image/webp;base64,UklGRnwDAABXRUJQVlA4WAoAAAAQAAAAQAAAQAAAQUxQSJMAAAABcJrtX9zgolF4FmCDzIBmgfh4dohF9WIA1L9XDtW5fr1LyKn6RMQEsL4FcjbsosbZDolvagAh5IMxNd6f7TAyV+MzeTUATfj+XCZXdfiVvOzP+s2XgRAxuC83ZRR5Q8qdiKGQtlyHRAydmIlQUGJkf+GbGqmTV1+ZGkM8l58yV2OY5OUbTRguFYxxV2PI5Dn+6QYAVlA4IMICAAAQEACdASpBAEEAPpFAmUqlo6IhqPSaOLASCWkADpxAn+xeVJwX0wc8r3h8itXmmRsoT4TC4PzI+fen6TZ0Xudx1SK3oKxqij+s2InlFPSQH8j4TiU4KZpBuZO/Lxq2NNXCEtbFX2td6qh7OpddOEumLWtBmtm4gMGbwVk2OxhdQTpcrpY9zBu4AAD+/xrd6nT1FCv/v78eBa6ekWVJWVXAfKzjGfOzDrrSW//8NPtMkX93otBVQIz6rQxHnv2u9SVQKGblThtkgYXa3OZTQ22/9ZukuyA75ezAd0KTph5jDB7fc5qyw+Oe4vWv/JjRw1+muvCRIYP6OFo9HWS2MTP/5vaKtiThlPirpVi1Eqgc4sb/mIEqtKw3dcR0njbnffb6xS65j/bWbQrazX4wUJmQDU9V4iTZ0nvfR6UU0HOtHtBgpNcaoULx+zcYc1zj/NvX75jiNralkaJdLDO3Qikgl0IXDIOYUcV4tlhl2ueU46/N+qEkRI6bKLZ9DWhFXJlzJp1x1MQrX7YYmuF1ShOEo4LaSTGr3YfifyZLFqxTzG7p+RO3bOBLDzL74gtLHHI3atBwnNolHg/MT+uGCjueZ2WM/b1pVVyl8ZyjLCU4jOXoT7+kr+AApE238lXG9j+UvnhhE3yn3jGjGjIZiQERUIa8GFyt/m7B6RpsxbxymC2Mmmyj+/SuA2blAqK6RzBdSAFgEH15bqQKm+eMhX3e8N6tEUGR35mFh/9gUCFuAJmIJkm3RWahF6RhA0wDwu/pj9fTHKW+nD+G1fwa+qlTP869ojlGqj4ybleYLlXbLJzsnKuOlnOxG7foJjyMQ2zgXl8M3LTUAsJ4JKFK2wfNg2dxm43WjXZNsAiGe5vNcIhWeHdJ114NED9vifXTX9Zq0rUTSRSifal/Z25HXNpbgM51JT1fBFOyu4JnifB4JAAA"
+                                        type="image/WebP"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAMAAAC5KTl3AAAA2FBMVEUAAACgoZ+hoqCWlpOUlJLOzs3T09KcnJqUlJGXl5Wtrarb29qysq+3t7W8vLvBwcDX19aTk5DIyMbe3t6QkI6oqKX///+WlpSUlJGYmJaampiVlZPJyci6urinp6WioqDj4+Pn5+bg4N/8/PysrKqysq+cnJqgoZ/6+vqQkI7V1dT4+Pjv7+/a2tmqqqelpaP09PTr6+vBwcC+vr2enpzx8fH29va3t7a1tbOSkpDPz87GxsWurqvMzMuwsK3p6eji4uLc3Nu7u7re3t3t7e3R0dDDw8LX19Z63nGlAAAAFnRSTlMAn5m2vC8ipLmwfRFyZ1pQF78+B8WQpnAnMwAABD9JREFUWMOlldd64jAQhdklW7K9SjMjMKGZ4g6mhw7Z93+jHcUUm2qSc8GHhPz7aEZHZK7ox+OvzKv09U59/PSK5z+/uSOJ9/cvtvHtTqI0UOILbfx+e0eKxpZTA8p+eHc74HtWkpwEQgh/IRE/frkV8PcnErY7lu/7VndsItt4f/WhTx/e7HSfJZZXqD3LM3mA9293enPS0fs/GJMGnB/izx8nCO+ASKYTEbw/SZCVh1SaGfIcoSrS6fG1hHLlBoLVWXXqLyeU5z3uo2ksSseEU734rg4I00doDEBBo6GqwQFBfjuR4ywlCQ6BcnPzkvNkAJjzJIGyn07kOElYSgibZaFVX5uAsyRhH7Z9jjFB6IRQCHhxMAsYM61BwU8QkmHTOZami3FCa0BF3omLCl1HiBkORnEC9gzYh41zjOAW1/Fe+OGgJcQQQKEC1RSiPah1471w/B4gZr/qCry9Q8SWJYZxwj/AQExRufPAMRSt+Dss4wSGNkPJNj5nPCAkrnSS8NRwy6LVqHX4+8rkHdSNRu6AIGwPSRmZGhJhPzgg5Bt9Pv6NttDq6cGEB0lCt2UiSS9T4E9SNBTrGwklA3T/DE1wJSLkW3JP4A1Unqvna7Oh9IolczCOEdQwJyXKMCLIYtNUJBPnoTkgWxSlqpTsuSuVRFSmHSOQyc/LnCM3BLGqAlKcYJvA/R8DSJKAiwKoQil+PxAiGCUxUxsCY4dcCwwdsdViQAFb8SRIPlHdUqm7BxRr7Fe2eaa0I0RJRJRtf2/CY9v14nJaPsj2mJCgwAcgSeDFIykJvOU2mhJq/zbJahrjHSCYACL0fXFEYM0MYHcta1NMCaqSm8/mI1dxZzZac9GVORTiJEF0uaMIxkM0enD5cgEFgwFMgs3e+oCoR2cIrGWBbeCoHrl38vqW8/LLbY9D0H/GZXGBIPyFYhuV7VSdb1pre2XoNEJlKsQlAsupaRv7FyXn2d5VAr9rv9m9t7b25nKJUhD0fqOw7bX0dJueLJGSIDpVSdx0O9YjQmMmRGpCl0++JAib0TmJcvxYT0/wK4pfqTPf60RnVYVIamKlJLADIBhZY22jMNR5UQu7xXPVlHWwJry4pcNW0U2RxAHhQLV5tl9PQ7CqvLS9CRvqivbs50zmeb5Xv06o93nhoiy22RiYze0vPSDIly8TjpdZjn0Iv0wo9w53e7zBi4Ty4jxgX+RLhPZRy041+uk8Qfd80hWX5Lv6rJwjPAFBhQFXEIogd5owAlKuL66p4ymE8SlCjgFGR1yXXZCohseEMaDybJFGqxoj1oeEIQMKDEilQCOaScJaoaytRFpNQ4myGSesJQMCkV5Fk59wdoTA4WE4FbfogSRiqRgRqGWiNIviNs0IMWxhRGAH9CBu1RKRn4sIhGFR3K6SibQjeO387WoXIkINiRHqJUJigpepNOA1alQzdu516vwHRFiAyXsUANcAAAAASUVORK5CYII="
+                                        alt="Изображение преимущства ПК" class='foto'></picture>
+                            </div>
+                            <div class="title___1TlMi">E-mail</div>
+                            <div class="description___3z3fu">Позволяет отправлять копии чеков на e-mail</div>
+                        </div>
+                    </div>
+                    <div class="main__item___3pz4c">
+                        <div class="main___6dhxI">
+                            <div class="image___2441R" style="border-color: rgb(157, 196, 194);">
+                                <picture>
+                                    <source type="image/WebP"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEEAAABBCAMAAAC5KTl3AAABI1BMVEUAAACTxcOTxcOUxsSUxsSizMuTxcOo0M6TxcOTxcOTxcOhzMq829mayceizcu929qTxcOTxcPH4N+UxsSXx8Wy1tSTxcOTxcOUxsSVxsSx1dO829qTxcOXx8WUxcSmz86lz82q0c+w1NK929qq0dC/3duXx8WgzMqy1dS929qTxsSRxcOTxcOWx8WYyMaey8mn0M6q0c+dysihzcu22Nemz82u1NLL4+HA3dy52diPw8GWxsSVxsSbysidy8mfy8mhzMqaycehzMqu09KkzsyWx8Wdy8mdysikzsybysify8mdysiizcuYx8WgzMuw1NOhzMqizcuRxcOkzs2WxsSoz86q0c+TxcO119W01tW01tXC3tyTxcOSxMKPw8GOw8GRxMIfGNw8AAAAXHRSTlMA2moHCMcMTt0v55lQz5dMdVYb/fYp4u8P6QUDMtq4kWhiVywnFvmhXSH59/Lu3ceDem9qXywfGBIP/PLYxLuvqaiKcTfj1dDEt7N5dWpWQMy8uKufdWxpTEdGNuzFGUYAAAHsSURBVFjD7dbpUtpQAIbhryWI1oJtsNAkjcEQdtla2ReB4lardl+Tc879X0WtBGeIJB6if2R4fmaSd/JlMpNgZcVNfYOPIWCuUDhvclI/Yo79ttV5xkdiRFPglMyzs9Qan9d6nO7D6Tv9AH6VOWdHyPW25puJjZphGLmcKIqNVEuwBWTZvnmdHN8uWC8A/C6ZNmZZphmNptPp7WJsSlXV8Lc6gJdW2KVwyro7/33ZOTkJfjo+OlJLpUNJits66bRJ+opXIcjOZ44qsiwIV4/O1mw0flnFpnfhLbzlotvi/QqvHkXh3X0LZDkKiaUo7K4KD1TQ4a1+R+EzzTz3tFVlUsurkG2Tu7ARvAoYVza9aSHFpaDRKvjp5HYhQcsKuGn0K5xSYTa8CPG50AqxJJzWIhYvxphVrsPhssuYWVznI0UZi//AjL8FsjcaNwQ+zVpCZbPf/9w6GdawiNaZVfiDG0qfHmBRVXooYuo97YhYlFCiA9iSe6SCxeltkrU3lO0Ni++IpewNUg5+yD06mGxw/JfJo6CbQQpT9qVZoNWjGcf7XaRu2CVu2LefxC6RRMwyttzUnDvKJIMMGcK/BAujQnvwT6N9GAXr4PypPz8jeZIFsnnCTJ8I2cSVcab7xKdTHROyEPBDCGBlyfwD6jXBuRu7GrkAAAAASUVORK5CYII="
+                                        alt="Изображение преимущства ПК" class='foto'></picture>
+                            </div>
+                            <div class="title___1TlMi">Личный кабинет</div>
+                            <div class="description___3z3fu">Кассовые документы и отчеты хранятся в Вашем Личном кабинете</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="action___1b806 blockAction___3ahKC">
+                    <div class="main___3PtHP"><a class="" href="/cash_boxes">Выбрать Программную кассу</a></div>
+                </div>
+            </section>
+            <div class="withBg___3Z2TJ">
+                <section class="content___JNyOq container___zhFwV operatorControl___2PZ6Y"><span id="sko" style="top: -288.391px; position: absolute;"></span>
+                    <div class="sectionContainer___SfWFc">
+                        <div class="fade-in-section___1lGpP">
+                            <h2 class="sectionTitle___24-Pr">Средство контроля оператора</h2>
+                        </div>
+                        <div class="sectionSubTitle___1uuU_"></div>
+                    </div>
+                    <div class="operatorControl__description___3SW8T">Для работы Программной кассы не требуется СКНО и фискальный регистратор. Для обеспечения подлинности и целостности электронных кассовых документов при передаче от Программной кассы к Оператору Программных касс и далее в Систему Контроля
+                        Кассового Оборудования (СККО) используется сертифицированное средство криптографической защиты информации - Средство Контроля Оператора (СКО).<br>В качестве СКО в Программной Кассовой Системе (ПКС) "Цифровые кассы" используется
+                        Устройство программно-аппаратное "Токен программной кассы"<br>(AvTPCR) (ИЯТА.467532.009)</div>
+                    <div class="operatorControl__enter___P-P6m">
+                        <div class="operatorControl__enter_image___1idde">
+                            <div class="operatorControl__enter_image_text___1h1pt">Функции СКО:</div>
+                            <div class="operatorControl__enter_image_img___1khD1">
+                                <picture>
+                                    <source srcset="data:image/webp;base64,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"
+                                        type="image/WebP"><img src="data:image/png;base64,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"
+                                        alt="СКО" width="66.59" height="90"></picture>
+                            </div>
+                        </div>
+                        <div class="operatorControl__enter_items___WG19Q">
+                            <div class="container___1h7Wn">
+                                <div class="item___nGbX-">
+                                    <div class="item__icon___1GrhF">
+                                        <div style="height: 25px; width: 25px;"><svg viewBox="0 0 120 120"><path fill="transparent" stroke="red" stroke-width="3" d="M 77.10100716628341 13.01536896070457 A 50 50 0 1 0 106.98463103929542 77.10100716628344"></path><path stroke="red" stroke-width="3" fill="transparent" d="M 35 44 L60 79 L119 10"></path></svg></div>
+                                    </div>
+                                    <div class="item__text___3rJzd">Аутентификация пользователя Программной кассы</div>
+                                </div>
+                            </div>
+                            <div class="container___1h7Wn">
+                                <div class="item___nGbX-">
+                                    <div class="item__icon___1GrhF">
+                                        <div style="height: 25px; width: 25px;"><svg viewBox="0 0 120 120"><path fill="transparent" stroke="red" stroke-width="3" d="M 77.10100716628341 13.01536896070457 A 50 50 0 1 0 106.98463103929542 77.10100716628344"></path><path stroke="red" stroke-width="3" fill="transparent" d="M 35 44 L60 79 L119 10"></path></svg></div>
+                                    </div>
+                                    <div class="item__text___3rJzd">Формирование уникальных идентификаторов кассовых электронных документов (КЭД)</div>
+                                </div>
+                            </div>
+                            <div class="container___1h7Wn">
+                                <div class="item___nGbX-">
+                                    <div class="item__icon___1GrhF">
+                                        <div style="height: 25px; width: 25px;"><svg viewBox="0 0 120 120"><path fill="transparent" stroke="red" stroke-width="3" d="M 77.10100716628341 13.01536896070457 A 50 50 0 1 0 106.98463103929542 77.10100716628344"></path><path stroke="red" stroke-width="3" fill="transparent" d="M 35 44 L60 79 L119 10"></path></svg></div>
+                                    </div>
+                                    <div class="item__text___3rJzd">Шифрование кассовых документов для передачи в ЦОД ПКС</div>
+                                </div>
+                            </div>
+                            <div class="container___1h7Wn">
+                                <div class="item___nGbX-">
+                                    <div class="item__icon___1GrhF">
+                                        <div style="height: 25px; width: 25px;"><svg viewBox="0 0 120 120"><path fill="transparent" stroke="red" stroke-width="3" d="M 77.10100716628341 13.01536896070457 A 50 50 0 1 0 106.98463103929542 77.10100716628344"></path><path stroke="red" stroke-width="3" fill="transparent" d="M 35 44 L60 79 L119 10"></path></svg></div>
+                                    </div>
+                                    <div class="item__text___3rJzd">Подписание КЭД технологическим сертификатом открытого ключа (ТСОК)</div>
+                                </div>
+                            </div>
+                            <div class="container___1h7Wn">
+                                <div class="item___nGbX-">
+                                    <div class="item__icon___1GrhF">
+                                        <div style="height: 25px; width: 25px;"><svg viewBox="0 0 120 120"><path fill="transparent" stroke="red" stroke-width="3" d="M 77.10100716628341 13.01536896070457 A 50 50 0 1 0 106.98463103929542 77.10100716628344"></path><path stroke="red" stroke-width="3" fill="transparent" d="M 35 44 L60 79 L119 10"></path></svg></div>
+                                    </div>
+                                    <div class="item__text___3rJzd">Передача событий и кассовых документов в ЦОД ПКС</div>
+                                </div>
+                            </div>
+                            <div class="container___1h7Wn">
+                                <div class="item___nGbX-">
+                                    <div class="item__icon___1GrhF">
+                                        <div style="height: 25px; width: 25px;"><svg viewBox="0 0 120 120"><path fill="transparent" stroke="red" stroke-width="3" d="M 77.10100716628341 13.01536896070457 A 50 50 0 1 0 106.98463103929542 77.10100716628344"></path><path stroke="red" stroke-width="3" fill="transparent" d="M 35 44 L60 79 L119 10"></path></svg></div>
+                                    </div>
+                                    <div class="item__text___3rJzd">Хранение событий и КЭД в случае отсутствия связи</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="action___1b806 blockAction___3ahKC">
+                        <div class="main___3PtHP"><a class="" href="/cash_boxes">Выбрать Программную кассу</a></div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <!--================End Login Box Area =================-->
+
+        <!-- start footer Area -->
+        <footer class="footer-area section_gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3  col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h6>Контакты</h6>
+                            <p>
+                                @WebkassaBy<br><br> +375(44)787-30-20
+                                <br><br> support@webkassa.by
+                                <br><br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h6>Вопросы и предложения</h6>
+                            <p>Напишите их на e-mail</p>
+                            <div class="" id="mc_embed_signup">
+
+                                <form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
+
+                                    <div class="d-flex flex-row">
+
+                                        <input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ' '" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+
+
+                                        <button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                                        <div style="position: absolute; left: -5000px;">
+                                            <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+                                        </div>
+
+                                        <!-- <div class="col-lg-4 col-md-4">
+                                                    <button class="bb-btn btn"><span class="lnr lnr-arrow-right"></span></button>
+                                                </div>  -->
+                                    </div>
+                                    <div class="info"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-md-6 col-sm-6">
+                        <div class="single-footer-widget mail-chimp">
+                            <h6 class="mb-20">Фото наших клиентов</h6>
+                            <ul class="instafeed d-flex flex-wrap">
+                                <li><img src="img/i1.jpg" alt=""></li>
+                                <li><img src="img/i2.jpg" alt=""></li>
+                                <li><img src="img/i3.jpg" alt=""></li>
+                                <li><img src="img/i4.jpg" alt=""></li>
+                                <li><img src="img/i5.jpg" alt=""></li>
+                                <li><img src="img/i6.jpg" alt=""></li>
+                                <li><img src="img/i7.jpg" alt=""></li>
+                                <li><img src="img/i8.jpg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h6>Наши аккаунты в интернете</h6>
+                            <form class="footer-social d-flex align-items-center">
+                                <a href="https://www.youtube.com/" target="_blank"><i class="fa "><img src='./img/youtube.svg ' alt='youtube '></i></a>
+
+                                <a href="https://twitter.com/alexey_mu" target="_blank"><i class="fa "> <img src='./img/twitter.svg ' alt='twitter '></i></a>
+                                <a href="https://vk.com/alex_mu" target="_blank"><i class="fa"> <img src='./img/vkontakte.svg ' alt='vkontakte '></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i class="fa"> <img src='./img/facebook.svg ' alt='facebook '></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
+                <p class="footer-text m-0">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->Copyright &copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://vk.com/alex_mu" target="_blank">Nikolaev Alexey</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+            </div>
+            </div>
+        </footer>
+        <!-- End footer Area -->
+
+
+        <script src="js/vendor/jquery-2.2.4.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="js/jquery.ajaxchimp.min.js"></script>
+        <script src="js/jquery.nice-select.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/nouislider.min.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <!--gmaps Js-->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+        <script src="js/gmaps.min.js"></script>
+        <script src="js/main.js"></script>
+</body>
+
+</html>

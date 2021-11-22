@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="CodePixar">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Karma Shop</title>
+    <!--
+			CSS
+			============================================= -->
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/nouislider.min.css">
+    <link rel="stylesheet" href="css/ion.rangeSlider.css" />
+    <link rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/C:\Users\Alex\Desktop\it-academyJS\проект\проект\karma\karma\Karma Shop-doc\css\b59ca9d587445a79fb18365b7683b812a314cbe7_CSS.58f05e8b.chunk.css">
+    <link rel="stylesheet" href="css/C:\Users\Alex\Desktop\it-academyJS\проект\проект\karma\karma\Karma Shop-doc\css\styles.5365ad5c.chunk.css">
+    <link rel="stylesheet" href="css/C:\Users\Alex\Desktop\it-academyJS\проект\проект\karma\karma\Karma Shop-doc\css\commons.f64c018f.chunk.css">
+    <link rel="stylesheet" href="css/img.css">
+
+</head>
+
+<body>
+    <table class="table">
+        <tbody id="data"></tbody>
+    </table>
+    <!-- Start Header Area -->
+    <header class="header_area sticky-header">
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light main_box">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                        <ul class="nav navbar-nav menu_nav ml-auto">
+                            <li class="nav-item active"><a class="nav-link" href="index.html">Главная</a></li>
+                            <li class="nav-item submenu dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Программные кассы</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="category.html">Каталог</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="single-product.html">Аксессуары</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="checkout.html">Принтеры</a></li>
+                                    <!--                                     <li class="nav-item"><a class="nav-link" href="cart.html">Условия подключения</a></li>
+ -->
+                                    <!--   <li class="nav-item"><a class="nav-link" href="confirmation.html">Confirmation</a></li> -->
+                                </ul>
+                            </li>
+                            <li class="nav-item submenu dropdown">
+                                <a href="./blog.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Тарифы</a>
+                                <!--  <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Последние новости</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
+                                </ul> -->
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="blog.html">Тарифы</a></li>
+                                    <!--  -->
+                                </ul>
+                            </li>
+                            <li class="nav-item submenu dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Информация</a>
+                                <ul class="dropdown-menu">
+                                    <li class="nav-item"><a class="nav-link" href="login.html">О Программной кассе</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="tracking.html">Как подключится</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="elements.html">Обучающие видео</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Контакты</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="nav-item"><a href="#" class="cart"><span class="ti-bag"></span></a></li>
+                            <li class="nav-item">
+                                <button class="search"><span class="lnr lnr-magnifier" id="search"></span></button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="search_input" id="search_input_box">
+            <div class="container">
+                <form class="d-flex justify-content-between">
+                    <input type="text" class="form-control" id="search_input" placeholder="Search Here">
+                    <button type="submit" class="btn"></button>
+                    <span class="lnr lnr-cross" id="close_search" title="Close Search"></span>
+                </form>
+            </div>
+        </div>
+        <!-- End Banner Area -->
+
+        <!--================Blog Categorie Area =================-->
+
+        <!--================Blog Categorie Area =================-->
+
+        <!--================Blog Area =================-->
+        <div id="USD">Доллар США $ — 00,0000 руб.</div>
+        <div id="EUR">Евро € — 00,0000 руб.</div>
+
+        <div class="pageWrapper___2OlWZ">
+            <div class="pricePage___sxtqW">
+                <section class="content___JNyOq page_title___1Ubc9">
+                    <div class="sectionContainer___SfWFc">
+                        <div class="fade-in-section___1lGpP is-visible___2q5Zh">
+                            <h1 class="sectionTitle___24-Pr">Тарифы</h1>
+                        </div>
+                        <div class="sectionSubTitle___1uuU_"></div>
+                    </div>
+                </section>
+                <section class="content___JNyOq">
+                    <div class="price___2azVj">
+                        <table>
+                            <thead>
+                                <tr class="attention">
+                                    <th rowspan="2">Услуги</th>
+                                    <th colspan="2">Стоимость услуг Оператора ПКС за каждую единицу ПК, BYN *</th>
+                                </tr>
+                                <tr>
+                                    <th>Первый месяц</th>
+                                    <th>Последующие месяцы</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="section" colspan="3"><b>ТАРИФНЫЙ ПЛАН "КАССА-online"</b></td>
+                                </tr>
+                                <tr>
+                                    <td>1. Услуги по обработке данных в виде кассовых документов в АИС ПКС "Цифровые кассы" и их передача в СККО</td>
+                                    <td class="price">47.50 ** (<span class="fb___3lxYA">действует до</span> 17.05.21 <span class="fb___3lxYA">включительно</span>) <br>56.50 ** (действует c 18.05.21)</td>
+                                    <td class="price">13.50</td>
+                                </tr>
+                                <tr>
+                                    <td>2. Лицензионное вознаграждение за использование ПК</td>
+                                    <td class="price" colspan="2">Бесплатно</td>
+                                </tr>
+                                <tr>
+                                    <td>3. Регистрация ПК в АИС ПКС "Цифровые Кассы"</td>
+                                    <td class="price" colspan="2">Бесплатно</td>
+                                </tr>
+                                <tr>
+                                    <td>4. Услуги по эксплуатации и технической поддержке ПК</td>
+                                    <td class="price" colspan="2">Бесплатно</td>
+                                </tr>
+                                <tr>
+                                    <td class="section" colspan="3"><b>ТАРИФНЫЙ ПЛАН "БСТ" ***</b></td>
+                                </tr>
+                                <tr>
+                                    <td>1. Услуги по обработке данных в виде кассовых документов в АИС ПКС "Цифровые кассы" и их передача в СККО</td>
+                                    <td class="price">60.50 **</td>
+                                    <td class="price">17.50</td>
+                                </tr>
+                                <tr>
+                                    <td>2. Регистрация ПК в АИС ПКС "Цифровые Кассы"</td>
+                                    <td class="price" colspan="2">Бесплатно</td>
+                                </tr>
+                                <tr>
+                                    <td>3. Услуги по эксплуатации и технической поддержке ПК</td>
+                                    <td class="price" colspan="2">Бесплатно</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="tableFoot___2yKnX">
+                            <tfoot>
+                                <tr>
+                                    <td colspan="5">* стоимость указана без НДС. Основание освобождения от НДС: Декрет Президента Республики Беларусь от 22 сентября 2005 г. № 12 "О Парке высоких технологий".</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5">** стоимость средства контроля оператора включена. При первоначальном подключении необходимо внесение предоплаты за 6 или 12 месяцев.</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5">*** Тариф действует для программной кассы "Цифровая мобильная касса" на устройстве <a href="/devices2in1/imachine">iMachine</a> .</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    <div class="description___JY8nj">Стоимость оборудования, эквайринг, а также услуги РУП "Информационно-издательский центр по налогам и сборам" в тарифы Оператора ПКС "Цифровые кассы" не входят</div>
+                    <div class="description___JY8nj">
+                        <div>
+                            <p class="show___2R4pk">Подробнее...</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="content___JNyOq alfa___1rvgZ">
+                    <div class="price___2azVj">
+                        <table>
+                            <thead>
+                                <tr class="attention">
+                                    <th rowspan="2">Услуги</th>
+                                    <th colspan="2">Стоимость услуг Оператора ПКС за каждую единицу ПК, BYN *</th>
+                                </tr>
+                                <tr>
+                                    <th>Единовременно (при подключении)</th>
+                                    <th>Ежемесячно</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="section" colspan="3"><b>ТАРИФНЫЙ ПЛАН "АЛЬФА-КАССА" **</b></td>
+                                </tr>
+                                <tr>
+                                    <td>1. Услуги по обработке данных в виде кассовых документов в АИС ПКС "Цифровые кассы" и их передача в СККО</td>
+                                    <td class="price">-</td>
+                                    <td class="price">12.90</td>
+                                </tr>
+                                <tr>
+                                    <td>2. Регистрация ПК в АИС ПКС "Цифровые Кассы"</td>
+                                    <td class="price">43.00</td>
+                                    <td class="price">-</td>
+                                </tr>
+                                <tr>
+                                    <td>3. Услуги по эксплуатации и технической поддержке ПК</td>
+                                    <td class="price" colspan="2">Бесплатно</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <table class="tableFoot___2yKnX">
+                            <tfoot>
+                                <tr>
+                                    <td colspan="5">* стоимость указана без НДС. Основание освобождения от НДС: Декрет Президента Республики Беларусь от 22 сентября 2005 г. № 12 "О Парке высоких технологий".</td>
+                                </tr>
+                                <tr>
+                                    <td colspan="5">** Тарифный план «Альфа-Касса» может быть использован только при подключении услуг Оператора ПКС через ЗАО «Альфа-Банк» (при заключении с ЗАО «Альфа-Банк» соответствующих договора банковского счета в белорусских рублях
+                                        и договора на эквайринг).</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    <div class="description___JY8nj"><a href="/static/files/Договор публичной оферты.pdf" target="_blank" rel="noopener noreferrer">Договор публичной оферты</a> на оказание услуг Оператором ПКС для клиентов ЗАО «Альфа-Банк» <a href="/static/files/Договор публичной оферты.pdf"
+                            download="">здесь</a>.</div>
+                    <div class="description___JY8nj">
+                        <div>
+                            <p class="show___2R4pk">Подробнее...</p>
+                        </div>
+                    </div>
+                </section>
+                <div class="preFooter___1mKfI"></div>
+            </div>
+        </div>
+        <!--================Blog Area =================-->
+
+        <!-- start footer Area -->
+        <footer class="footer-area section_gap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3  col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h6>Контакты</h6>
+                            <p>
+                                @WebkassaBy<br><br> +375(44)787-30-20
+                                <br><br> support@webkassa.by
+                                <br><br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4  col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h6>Вопросы и предложения</h6>
+                            <p>Напишите их на e-mail</p>
+                            <div class="" id="mc_embed_signup">
+
+                                <form target="_blank" novalidate="true" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="form-inline">
+
+                                    <div class="d-flex flex-row">
+
+                                        <input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+
+
+                                        <button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+                                        <div style="position: absolute; left: -5000px;">
+                                            <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+                                        </div>
+
+                                        <!-- <div class="col-lg-4 col-md-4">
+                                                    <button class="bb-btn btn"><span class="lnr lnr-arrow-right"></span></button>
+                                                </div>  -->
+                                    </div>
+                                    <div class="info"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3  col-md-6 col-sm-6">
+                        <div class="single-footer-widget mail-chimp">
+                            <h6 class="mb-20">Фото наших клиентов</h6>
+                            <ul class="instafeed d-flex flex-wrap">
+                                <li><img src="img/i1.jpg" alt=""></li>
+                                <li><img src="img/i2.jpg" alt=""></li>
+                                <li><img src="img/i3.jpg" alt=""></li>
+                                <li><img src="img/i4.jpg" alt=""></li>
+                                <li><img src="img/i5.jpg" alt=""></li>
+                                <li><img src="img/i6.jpg" alt=""></li>
+                                <li><img src="img/i7.jpg" alt=""></li>
+                                <li><img src="img/i8.jpg" alt=""></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-6 col-sm-6">
+                        <div class="single-footer-widget">
+                            <h6>Наши аккаунты в интернете</h6>
+                            <form class="footer-social d-flex align-items-center">
+                                <a href="https://www.youtube.com/" target="_blank"><i class="fa "><img src='./img/youtube.svg' alt='youtube'></i></a>
+
+                                <a href="https://twitter.com/alexey_mu" target="_blank"><i class="fa "> <img src='./img/twitter.svg' alt='twitter'></i></a>
+                                <a href="https://vk.com/alex_mu" target="_blank"><i class="fa"> <img src='./img/vkontakte.svg' alt='vkontakte'></i></a>
+                                <a href="https://www.facebook.com/" target="_blank"><i class="fa"> <img src='./img/facebook.svg' alt='facebook'></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
+                <p class="footer-text m-0">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;
+                    <script>
+                        document.write(new Date().getFullYear());
+                    </script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://vk.com/alex_mu" target="_blank">Nikolaev Alexey</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+            </div>
+            </div>
+        </footer>
+        <!-- End footer Area -->
+        <script>
+            function CBR_XML_Daily_Ru(rates) {
+                function trend(current, previous) {
+                    if (current > previous) return ' ▲';
+                    if (current < previous) return ' ▼';
+                    return '';
+                }
+
+                var USDrate = rates.Valute.USD.Value.toFixed(4).replace('.', ',');
+                var USD = document.getElementById('USD');
+                USD.innerHTML = USD.innerHTML.replace('00,0000', USDrate);
+                USD.innerHTML += trend(rates.Valute.USD.Value, rates.Valute.USD.Previous);
+
+                var EURrate = rates.Valute.EUR.Value.toFixed(4).replace('.', ',');
+                var EUR = document.getElementById('EUR');
+                EUR.innerHTML = EUR.innerHTML.replace('00,0000', EURrate);
+                EUR.innerHTML += trend(rates.Valute.EUR.Value, rates.Valute.EUR.Previous);
+            }
+        </script>
+        <link rel="dns-prefetch" href="https://www.cbr-xml-daily.ru/" />
+        <script src="//www.cbr-xml-daily.ru/daily_jsonp.js" async></script>
+        <script src="/проект/проект/karma/karma/js/vendor/jquery-2.2.4.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+        <script src="/проект/проект/karma/karma/js/vendor/bootstrap.min.js"></script>
+        <script src="/проект/проект/karma/karma/js/jquery.ajaxchimp.min.js"></script>
+        <script src="/проект/проект/karma/karma/js/jquery.nice-select.min.js"></script>
+        <script src="/проект/проект/karma/karma/js/jquery.sticky.js"></script>
+        <script src="/проект/проект/karma/karma/js/nouislider.min.js"></script>
+        <script src="/проект/проект/karma/karma/js/jquery.magnific-popup.min.js"></script>
+        <script src="/проект/проект/karma/karma/js/owl.carousel.min.js"></script>
+        <!--gmaps Js-->
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+        <script src="/проект/проект/karma/karma/js/gmaps.min.js"></script>
+        <script src="/проект/проект/karma/karma/js/main.js"></script>
+        <script src='/проект/проект/karma/karma/js/tarif.js'></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+
+</html>
